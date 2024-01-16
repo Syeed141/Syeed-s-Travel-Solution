@@ -82,13 +82,12 @@ nav {
 .travel-main-section {
   height: 29rem;
 
-
   background: linear-gradient(
-    180deg,
-    rgba(19, 19, 24, 0.8) 0%,
-    rgba(19, 19, 24, 0) 100%
-  ),
-  url(Images/g1.png);
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(Images/g1.png);
   border-radius: 16px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,7 +152,8 @@ nav {
   margin-top: 4rem;
 }
 
-.tour-main-section li , .example-part-1 li{
+.tour-main-section li,
+.example-part-1 li {
   list-style: disc;
 }
 
@@ -186,8 +186,6 @@ nav {
 
   text-align: center;
   border-radius: 16px;
-
-  
 }
 
 .tour-images {
@@ -202,7 +200,6 @@ nav {
   background: url(Images/Rectangle\ 5.png);
   background-size: cover;
   text-align: center;
-  
 }
 
 .image-box-2 {
@@ -221,7 +218,6 @@ nav {
   grid-column: 4 / span 6;
   background-image: url(Images/Rectangle\ 7.png);
   background-size: 100% 100%;
-
 }
 
 .image-box-5 {
@@ -234,7 +230,6 @@ nav {
   grid-column: 1 / span 4;
   background-image: url(Images/Rectangle\ 11.png);
   background-size: cover;
-  
 }
 
 .image-box-7 {
@@ -243,467 +238,339 @@ nav {
   background-size: 100% 100%;
 }
 
-
-
-
-
-
 .tour-images h1 {
-
-    color:white;
-    padding-top: 13%;
-
+  color: white;
+  padding-top: 13%;
 }
 
 .image-box-3 h1 {
-
   padding-top: 30%;
-
-
-
-  
 }
-
 
 .image-box-5 h1 {
-
   padding-top: 30%;
-
-
-
-  
 }
-
 
 .image-box-6 h1 {
-
   padding-top: 25%;
-
-
-
-  
 }
 
+.tour-text,
+.why-part-1 {
+  width: 33rem;
+  margin: 0.5rem auto;
 
-.tour-text, .why-part-1{
-
-
-width:33rem;
-margin: .5rem auto;
-
-text-align: center;
+  text-align: center;
 }
 
-.tour-text h2, .why-header, .discounts-header, .discounts-h2{
+.tour-text h2,
+.why-header,
+.discounts-header,
+.discounts-h2 {
+  color: #131318;
 
-    color: #131318;
-
-font-size: 2.1rem;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-
+  font-size: 2.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
-.discounts-header{
-
-
-  font-size:2.1rem;
+.discounts-header {
+  font-size: 2.1rem;
 }
 
-.discounts-h2{
+.discounts-h2 {
+  font-size: 1.2rem;
 
-font-size: 1.2rem;
-
-color: #FF5400;
-
-
-
-
+  color: #ff5400;
 }
 
+.tour-text p,
+.why-paragraph,
+.discounts-para {
+  color: rgba(19, 19, 24, 0.7);
 
-
-
-
-.tour-text p, .why-paragraph, .discounts-para {
-
-
-    color: rgba(19, 19, 24, 0.70);
-
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    padding-bottom: 1rem;
-
-
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 1rem;
 }
-
-
-
-
-
 
 /* tour/travel section ends */
 
-
-
-
-.card-1,.card-2,.card-3{
-
-margin:1rem;
-width:29rem;
-height: 14rem;
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-padding:1rem;
-
-}
-
-
-.card-2{
-
+.card-1,
+.card-2,
+.card-3 {
+  margin: 1rem;
+  width: 29rem;
+  height: 14rem;
   border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.20);
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 1rem;
+}
+
+.card-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
-
-
 }
 
-.flexx{
-
-display:flex;
-justify-content: center;
-
-
+.flexx {
+  display: flex;
+  justify-content: center;
 }
-
 
 .card-3 {
-
-
-margin:0px auto;
-border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-
+  margin: 0px auto;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
-
-
-
 
 /* why section ends */
 
-
 /* discounts section starts */
 
-.image-holder-1{
-width:100%;
-height: 29rem;
+.image-holder-1 {
+  width: 100%;
+  height: 29rem;
   border-radius: 16px;
-background: url(Rectangle\ 12.png), lightgray 50% / cover no-repeat;
-background-repeat: no-repeat;
-background-size: cover;
-margin-bottom: 2rem;
-
-
-
-}
-
-
-.image-holder-2{
-  width:100%;
-  height: 29rem;
-    border-radius: 16px;
-  background: url(R1.png), lightgray 50% / cover no-repeat;
-  background-repeat: no-repeat;
-background-size: cover;
-margin-bottom: 2rem;
-  
-  
-  
-  
-  }
-
-
-
-
-
-.image-holder-3{
-  width:100%;
-  height: 29rem;
-    border-radius: 16px;
   background: url(Rectangle\ 12.png), lightgray 50% / cover no-repeat;
-  
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2rem;
-  
-  
-  }
+}
 
+.image-holder-2 {
+  width: 100%;
+  height: 29rem;
+  border-radius: 16px;
+  background: url(R1.png), lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
 
-  .image-boxx-1,.image-boxx-2, .image-boxx-3{
-    position: relative;
-top:2rem;
-left:40rem;
-padding:.7rem 2rem;
-width:33%;
-height:24rem;
-border-radius: 16px;
-border: 2px solid #FFF;
-background: rgba(255, 255, 255, 0.80);
-backdrop-filter: blur(1.5px);
+.image-holder-3 {
+  width: 100%;
+  height: 29rem;
+  border-radius: 16px;
+  background: url(Rectangle\ 12.png), lightgray 50% / cover no-repeat;
 
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
 
+.image-boxx-1,
+.image-boxx-2,
+.image-boxx-3 {
+  position: relative;
+  top: 2rem;
+  left: 40rem;
+  padding: 0.7rem 2rem;
+  width: 33%;
+  height: 24rem;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1.5px);
+}
 
-  .image-boxx-2{
+.image-boxx-2 {
+  left: 5rem;
+}
 
-    left:5rem;
+.image-boxx-1 ul,
+.image-boxx-2 ul,
+.image-boxx-3 ul {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem;
+}
 
+.discounts-part-1 {
+  text-align: center;
+}
 
-  }
+.jugar,
+.jugar2 {
+  display: flex;
+}
 
-  .image-boxx-1 ul, .image-boxx-2 ul, .image-boxx-3 ul{
-
- display:flex;
- gap:1rem;
- margin:1.5rem ;
-
-
-  }
-
-  .discounts-part-1{
-
-text-align: center;
-
-  }
-
-  .jugar, .jugar2{
-
-
-    display:flex;
-    
-    
-    
-           }
-
-
-           .middle-button{
-
-margin-left: 25rem;
-
-            
-           }
-
-
+.middle-button {
+  margin-left: 25rem;
+}
 
 /* ends */
 
-
 /* example section starts */
 
-.example{
-
-margin-top: 3rem;
-  display:flex;
-  gap:2rem;
+.example {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
   justify-content: space-between;
 }
 
-.example-part-1 h1, .myself-box-1 h1{
+.example-part-1 h1,
+.myself-box-1 h1 {
   margin-top: 0rem;
 
   color: #131318;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: 60px; /* 150% */
-
-
-
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
 }
 
-.example-part-2 img{
-
-
-width:100%;
-height:100%;
-
+.example-part-2 img {
+  width: 100%;
+  height: 100%;
 }
 
-
-
-.example-part-1 li{
+.example-part-1 li {
   color: #131318;
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px; /* 162.5% */
-
-
 }
-
-
-
-
-
-
 
 /* section ends */
 
-
-.newsletter{
-
-
+.newsletter {
   margin-top: 5rem;
-display:flex;
+  display: flex;
+  justify-content: space-between;
 
-gap:2rem;
-
-
-
+  gap: 2rem;
 }
 
-
-hr{
-
-
-  height:.1rem;
-  background: rgba(19, 19, 24, 0.10);
+hr {
+  height: 0.1rem;
+  background: rgba(19, 19, 24, 0.1);
 }
 
+.btnnews {
+  width: 20rem;
+  height: 3rem;
 
-.btnnews{
-
-
-width:20rem;
-height:3rem;
-
-border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-margin-bottom: .5rem;
-text-align: center;
-
-
-
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
-
-.newsdiv1{
-
-text-align: center;
-background: #FFF;
-
-border-radius: 16px;
-border: 1px solid #FF5400;
-padding:2rem;
-
-
-
-
-
+.newsdiv1 {
+  text-align: center;
+  background: #fff;
+  width: 30%;
+  border-radius: 16px;
+  border: .1rem solid #ff5400;
+  padding: 2rem;
 }
 
-
-.newsdiv2{
-
-position: relative;
-
-
+.newsdiv2 {
+  position: relative;
 }
 
-.btn{
-
-
-
+.btn {
   position: absolute;
-  top:74%;
-  left:67%;
+  top: 74%;
+  left: 67%;
   transform: rotate(-21.628deg);
 }
 
-
-
-
 /* end */
-
 
 /* myself */
 
-
-
-.myself{
-
+.myself {
   margin-top: 8rem;
-display:flex;
-gap:5rem;
-justify-content: space-between;
-
-
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
 }
 
-.myself-box-1{
-
-
-border-radius: 1rem;
-width:60%;
-
-
+.myself-box-1 {
+  border-radius: 1rem;
+  width: 60%;
 }
 
-
-
-.myself-box-2{
-
-  width:20rem;
-  height:18rem;
+.myself-box-2 {
+  width: 20rem;
+  height: 18rem;
   border-radius: 2rem;
-
 }
 
-.myself-box-2 img{
-
-
-  width:100%;
-  height:100%;
+.myself-box-2 img {
+  width: 100%;
+  height: 100%;
 
   border-radius: 2rem;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+.footer {
+  background: rgba(19, 19, 24, 0.05);
+}
+.img-title {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  margin-top: 100px;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+hr {
+  margin-top: 50px;
+  width: 820px;
+}
+.copy {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-syeed-h3 {
+  color: var(--Dark-01, #131318);
+  font-family: Mulish;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.travel{
+  color: #ff5400;
+}
+.footer-syeed-p {
+  color: #5a5a5d;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.copy {
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
 
 /* Media query starts  */
 
@@ -765,243 +632,170 @@ width:60%;
     width: 100%;
   }
 
-/* tour section end */
+  /* tour section end */
 
+  /* new section starts */
 
-/* new section starts */
+  .tour-text,
+  .why-part-1,
+  .discounts-part-1 {
+    width: 21rem;
+    margin: 0.5rem auto;
 
-.tour-text, .why-part-1, .discounts-part-1{
-
-
-    width:21rem;
-    margin: .5rem auto;
-    
     text-align: center;
-    }
-
-    .tour-text h1{
-
- 
-      font-size: .1rem;
   }
-  
+
+  .tour-text h1 {
+    font-size: 0.1rem;
+  }
+
   .tour-main-section {
     flex-direction: column;
   }
-  
+
   .tour-images {
-   
     display: flex;
     flex-direction: column;
   }
-  
-  .tour-images h1{
-  
-  
-    padding-top: 24%;
-  
-  
-  }
 
+  .tour-images h1 {
+    padding-top: 24%;
+  }
 
   /* travel/tour section ends */
 
   /* why section starts */
 
-
-
-  .card-1,.card-2,.card-3{
-
-    margin:1rem;
-    width:18rem;
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin: 1rem;
+    width: 18rem;
     height: 14rem;
     border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
+    border: 1px solid rgba(251, 181, 99, 0.2);
     background: rgba(251, 181, 99, 0.05);
-    padding:1rem;
-    
-    }
+    padding: 1rem;
+  }
 
+  .flexx {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-  .flexx{
-
-  
-   flex-direction: column;
-   justify-content: center;
-    
-    
-    }
-
-    .why-part-2{
-
+  .why-part-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  /* why section ends */
 
-    }
+  /* discount part starts */
 
+  .image-boxx-1,
+  .image-boxx-2,
+  .image-boxx-3 {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    padding: 0.7rem 2rem;
+    width: 60%;
+    height: 24rem;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1.5px);
+  }
 
-    /* why section ends */
+  .image-boxx-1 ul,
+  .image-boxx-2 ul,
+  .image-boxx-3 ul {
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: 0.1rem;
+  }
 
+  .jugar,
+  .jugar2 {
+    display: flex;
+  }
 
+  .discounts-header {
+    font-size: 1.3rem;
 
-    /* discount part starts */
+    margin: 0.1rem 0rem;
+  }
 
+  .discounts-h2 {
+    margin: 0.1rem 0rem;
+  }
 
+  .discounts-para {
+    padding-bottom: 0rem;
+  }
 
-    .image-boxx-1,.image-boxx-2, .image-boxx-3{
-      position: relative;
-  top:2rem;
-  left:2rem;
-  padding:.7rem 2rem;
-  width:60%;
-  height:24rem;
-  border-radius: 16px;
-  border: 2px solid #FFF;
-  background: rgba(255, 255, 255, 0.80);
-  backdrop-filter: blur(1.5px);
-  
-    }
-  
+  .middle-button {
+    display: none;
+  }
 
+  /* Discounts section ends */
 
-    .image-boxx-1 ul, .image-boxx-2 ul, .image-boxx-3 ul{
+  /* example section starts */
 
-      flex-direction: column;
-      gap:.3rem;
-      margin:.1rem ;
-     
-     
-       }
+  .example {
+    flex-direction: column;
+  }
 
+  /* end */
 
-       .jugar, .jugar2{
+  .newsletter {
+    flex-direction: column;
+  }
 
+  .btnnews {
+    width: 15rem;
+    margin-bottom: 1.5rem;
+  }
 
-display:flex;
+  .newsdiv2 img {
+    object-fit: cover;
+    width: 20.5rem;
+  }
 
+  .btnnoww {
+    font-size: 1rem;
+  }
 
+  .btn {
+    top: 47%;
+    left: 47%;
+  }
 
-       }
+  /* end */
 
+  /* start */
 
-       .discounts-header{
+  .myself {
+    flex-direction: column;
+  }
 
+  .myself-box-1 {
+    margin: 0px auto;
+  }
 
+  .myself-box-1 h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 
-        font-size: 1.3rem;
 
-        margin:.1rem 0rem;
-       }
+  .newsdiv1{
 
+    width:78%;
+  }
+  hr{
 
-       .discounts-h2{
-
-
-
-        margin: .1rem 0rem;
-       }
-
-
-       .discounts-para{
-
-
-padding-bottom: 0rem;
-
-
-       }
-
-
-       .middle-button{
-
-        display: none;
-        
-                    
-                   }
-            
-
-
-
-       /* Discounts section ends */
-       
-
-       /* example section starts */
-
-
-       .example{
-
-      flex-direction: column;
-        }
-
-
-        /* end */
-
-
-
-
-        .newsletter{
-
-flex-direction: column;
-        
-        
-        
-        }
-
-        .btnnews{
-
-width:15rem;
-margin-bottom: 1.5rem;
-
-        }
-
-
-        .newsdiv2 img{
-
-object-fit: cover;
-width: 20.5rem;
-
-        }
-
-        .btnnoww{
-
-font-size: 1rem;
-
-        }
-
-
-        .btn {
-          
-          top: 47%;
-          left: 47%;
-          
-      }
-
-
-
-      /* end */
-
-      /* start */
-
-
-      .myself{
-
-       flex-direction: column;
-      
-      
-      }
-
-
-      .myself-box-1 {
-
-
-        margin:0px auto;
-      }
-  
-
-      .myself-box-1 h1{
-
-        font-size: 2rem;
-        line-height: 2rem;
-      }
-
+    width:78%;
+  }
 }
