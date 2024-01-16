@@ -294,7 +294,7 @@ margin: .5rem auto;
 text-align: center;
 }
 
-.tour-text h2, .why-header{
+.tour-text h2, .why-header, .discounts-header, .discounts-h2{
 
     color: #131318;
 
@@ -305,8 +305,28 @@ line-height: normal;
 
 }
 
+.discounts-header{
 
-.tour-text p, .why-paragraph {
+
+  font-size:2.1rem;
+}
+
+.discounts-h2{
+
+font-size: 1.2rem;
+
+color: #FF5400;
+
+
+
+
+}
+
+
+
+
+
+.tour-text p, .why-paragraph, .discounts-para {
 
 
     color: rgba(19, 19, 24, 0.70);
@@ -374,40 +394,93 @@ background: rgba(233, 68, 68, 0.05);
 
 
 
+/* why section ends */
+
+
+/* discounts section starts */
+
+.image-holder-1{
+width:100%;
+height: 29rem;
+  border-radius: 16px;
+background: url(/Rectangle\ 12.png), lightgray 50% / cover no-repeat;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 2rem;
+
+
+
+}
+
+
+.image-holder-2{
+  width:100%;
+  height: 29rem;
+    border-radius: 16px;
+  background: url(/R1.png), lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 2rem;
+  
+  
+  
+  
+  }
 
 
 
 
 
+.image-holder-3{
+  width:100%;
+  height: 29rem;
+    border-radius: 16px;
+  background: url(/Rectangle\ 12.png), lightgray 50% / cover no-repeat;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  
+  
+  }
 
 
+  .image-boxx-1,.image-boxx-2, .image-boxx-3{
+    position: relative;
+top:2rem;
+left:55rem;
+padding:.7rem 2rem;
+width:80%;
+height:24rem;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(1.5px);
+
+  }
 
 
+  .image-boxx-2{
+
+    left:5rem;
 
 
+  }
+
+  .image-boxx-1 ul, .image-boxx-2 ul, .image-boxx-3 ul{
+
+ display:flex;
+ gap:1rem;
+ margin:1.5rem ;
 
 
+  }
 
+  .discounts-part-1{
 
+text-align: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 
 
@@ -479,7 +552,7 @@ background: rgba(233, 68, 68, 0.05);
 
 /* new section starts */
 
-.tour-text, .why-part-1{
+.tour-text, .why-part-1, .discounts-part-1{
 
 
     width:21rem;
@@ -536,14 +609,94 @@ background: rgba(233, 68, 68, 0.05);
 
   
    flex-direction: column;
+   justify-content: center;
     
     
+    }
+
+    .why-part-2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     }
 
 
     /* why section ends */
 
 
+
+    /* discount part starts */
+
+
+
+    .image-boxx-1,.image-boxx-2, .image-boxx-3{
+      position: relative;
+  top:2rem;
+  left:2rem;
+  padding:.7rem 2rem;
+  width:60%;
+  height:24rem;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(1.5px);
+  
+    }
+  
+
+
+    .image-boxx-1 ul, .image-boxx-2 ul, .image-boxx-3 ul{
+
+      flex-direction: column;
+      gap:.3rem;
+      margin:.1rem ;
+     
+     
+       }
+
+
+       .jugar, .jugar2{
+
+
+display:flex;
+
+
+
+       }
+
+
+       .discounts-header{
+
+
+
+        font-size: 1.3rem;
+
+        margin:.1rem 0rem;
+       }
+
+
+       .discounts-h2{
+
+
+
+        margin: .1rem 0rem;
+       }
+
+
+       .discounts-para{
+
+
+padding-bottom: 0rem;
+
+
+       }
+
+
+
+       /* Discounts section ends */
+       
 
 
   
