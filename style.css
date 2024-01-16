@@ -448,9 +448,9 @@ margin-bottom: 2rem;
   .image-boxx-1,.image-boxx-2, .image-boxx-3{
     position: relative;
 top:2rem;
-left:55rem;
+left:40rem;
 padding:.7rem 2rem;
-width:80%;
+width:33%;
 height:24rem;
 border-radius: 16px;
 border: 2px solid #FFF;
@@ -481,6 +481,16 @@ backdrop-filter: blur(1.5px);
 text-align: center;
 
   }
+
+  .jugar, .jugar2{
+
+
+    display:flex;
+    
+    
+    
+           }
+    
 
 
 
