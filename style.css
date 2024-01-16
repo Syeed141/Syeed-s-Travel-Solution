@@ -82,12 +82,13 @@ nav {
 .travel-main-section {
   height: 29rem;
 
+
   background: linear-gradient(
-      180deg,
-      rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    ),
-    url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  ),
+  url(Images/g1.png);
   border-radius: 16px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,7 +285,7 @@ nav {
 }
 
 
-.tour-text{
+.tour-text, .why-part-1{
 
 
 width:33rem;
@@ -293,7 +294,7 @@ margin: .5rem auto;
 text-align: center;
 }
 
-.tour-text h2{
+.tour-text h2, .why-header{
 
     color: #131318;
 
@@ -305,7 +306,7 @@ line-height: normal;
 }
 
 
-.tour-text p {
+.tour-text p, .why-paragraph {
 
 
     color: rgba(19, 19, 24, 0.70);
@@ -325,6 +326,89 @@ line-height: normal;
 
 
 /* tour/travel section ends */
+
+
+
+
+.card-1,.card-2,.card-3{
+
+margin:1rem;
+width:29rem;
+height: 14rem;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding:1rem;
+
+}
+
+
+.card-2{
+
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+
+
+}
+
+.flexx{
+
+display:flex;
+justify-content: center;
+
+
+}
+
+
+.card-3 {
+
+
+margin:0px auto;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -360,7 +444,7 @@ line-height: normal;
         rgba(19, 19, 24, 0.8) 0%,
         rgba(19, 19, 24, 0) 100%
       ),
-      url(Images/Group\ 13\ \(1\)\ \(1\).png);
+      url(Images/g1.png);
 
     background-size: cover;
     background-position: center;
@@ -395,7 +479,7 @@ line-height: normal;
 
 /* new section starts */
 
-.tour-text{
+.tour-text, .why-part-1{
 
 
     width:21rem;
@@ -430,6 +514,38 @@ line-height: normal;
 
 
   /* travel/tour section ends */
+
+  /* why section starts */
+
+
+
+  .card-1,.card-2,.card-3{
+
+    margin:1rem;
+    width:18rem;
+    height: 14rem;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding:1rem;
+    
+    }
+
+
+  .flexx{
+
+  
+   flex-direction: column;
+    
+    
+    }
+
+
+    /* why section ends */
+
+
+
+
   
 
 }
