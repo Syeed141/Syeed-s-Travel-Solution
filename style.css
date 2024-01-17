@@ -517,9 +517,9 @@ hr {
 
 
 
-.footer {
+/* .footer {
   background: rgba(19, 19, 24, 0.05);
-}
+} */
 .img-title {
   display: flex;
   gap: 10px;
@@ -529,6 +529,7 @@ hr {
 .footer-title {
   margin-top: 100px;
   text-align: center;
+   /* background: rgba(19, 19, 24, 0.05);; */
 }
 .icon {
   display: flex;
@@ -537,7 +538,14 @@ hr {
 }
 hr {
   margin-top: 50px;
-  width: 820px;
+  width: 275px;
+}
+
+.footer-title hr{
+
+width:42rem;
+
+
 }
 .copy {
   text-align: center;
@@ -570,6 +578,17 @@ hr {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+
+
+.footermain{
+
+  margin-left: 0rem;
+margin-left:0rem;
+
+background: rgba(19, 19, 24, 0.05);
+
 }
 
 /* Media query starts  */
@@ -798,4 +817,13 @@ hr {
 
     width:78%;
   }
+
+
+
+  .footer-title hr{
+
+    width:16rem;
+    
+    
+    }
 }
