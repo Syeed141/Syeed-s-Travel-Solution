@@ -164,6 +164,18 @@ nav {
 .tour-box-1 * {
   padding-bottom: 2rem;
 }
+.tour-box-1 h1 {
+  color: #131318;
+  
+  
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+
+
+}
 
 .btn-tour {
   padding: 1rem 2rem;
